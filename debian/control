@@ -1,0 +1,18 @@
+Source: aptly-api-client
+Section: Libraries
+Priority: optional
+Maintainer: York Instruments <oss@york-instruments.co.uk>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools, python3-requests, python3-tz, python3-iso8601, python-typing
+Standards-Version: 3.9.8
+Homepage: https://github.com/gopythongo/aptly-api-client
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python3-aptly-api-client
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-requests, python3-tz, python3-iso8601
+Suggests: python-aptly-api-client-doc
+Description: Thin abstraction layer for Aptly's HTTP API (Python 3)
+ This is a thin abstraction layer for interfacing with Aptly's HTTP API.
+ .
+ This package installs the library for Python 3.

@@ -20,3 +20,9 @@ __pycache__
 .mypy_cache
 .tox
 .toxenv
+
+# Debian build process
+.pybuild
+debian/python3-aptly-api-client*
+debian/files
+debian/debhelper-build-stamp

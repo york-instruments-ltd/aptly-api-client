@@ -16,6 +16,17 @@ a standalone library from Pypi.
 
     pip install aptly-api-client
 
+Build Deb Package
+=================
+
+It's handy to bundle this into a deb package to serve on an aptly server. To build this
+package:
+
+.. code-block:: shell
+
+   sudo apt build-dep .
+   fakeroot debian/rules binary
+
 
 Usage
 -----

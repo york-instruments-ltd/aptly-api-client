@@ -1,3 +1,10 @@
+aptly-api-client (0.1.7~yi1) unstable; urgency=medium
+
+  * Update to latest master to publish update issue. Will be removed when
+    0.1.7 is tagged upstream.
+
+ -- York Instruments <oss@york-instruments.co.uk>  Fri, 19 Jul 2019 13:11:24 +0100
+
 aptly-api-client (0.1.6) unstable; urgency=medium
 
   * Initial Release.
